@@ -1,0 +1,161 @@
+body{
+	background-color: rgb(0,0,0);
+}
+
+h1{
+	color: red;
+	margin-left: 36px;
+	font-family: "Gill Sans", "Courier New", monospace;
+}
+
+h2{
+	color: red;
+	margin-left: 36px;
+	font-family: "Gill Sans", "Courier New", monospace;
+}
+
+h3{
+	color: red;
+	margin-left: 36px;
+	font-family: "Gill Sans", "Courier New", monospace;
+}
+
+h4{
+	color: red;
+	margin-left: 36px;
+	font-family: "Gill Sans", "Courier New", monospace;
+}
+
+hr{
+	border: 1px solid red;
+}
+
+
+p{
+	color: black;
+}
+
+.specs{
+	position: absolute;
+	top:15px;
+	left: 300px
+}
+
+.killbotimg {
+	position: absolute;
+	width:450px;
+	left: 30px;
+	top: 80px;
+
+}
+
+.blinkies{
+	position: absolute;
+	left: 30px;
+	top: 780px;
+}
+
+.buttons{
+	position: absolute;
+	left: 30px;
+	top: 490px;
+}
+
+.mapbuttons{
+	position: absolute;
+	left: 15px;
+	top: 15px;
+}
+
+.skew-shake-x {
+  animation: skew-x-shake 1.3s infinite;
+}
+
+.cbox{
+	position: absolute;
+	left: 1190px;
+	top: 86px;
+	border:6px solid red;
+}
+
+@keyframes skew-x-shake {
+  0% { transform: skewX(-15deg); }
+  2% { transform: skewX(15deg); }
+  4% { transform: skewX(-15deg); }
+  6% { transform: skewX(15deg); }
+  8% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+.game {
+	position: absolute;
+	top:86px;
+	left: 500px;
+}
+
+.about {
+	position: absolute;
+	top:86px;
+	left: 500px;
+}
+
+.buttons img:hover  {
+
+transform: scale(1.1);
+
+}
+
+.mapbuttons img:hover  {
+
+transform: scale(1.1);
+
+}
+
+.buttonsbasic img:hover  {
+
+transform: scale(1.1);
+
+}
+
+.gametext {
+	position: absolute;
+	top:80px;
+	left: 15px;
+	margin-right: 15px;
+}
+
+.gametext img {
+	position: relative;
+	left: 35px;
+}
+
+.newsimg {
+	position: absolute;
+	left: 5px;
+}
+
+
+
+
+
+
+/*scrollbar shit*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
